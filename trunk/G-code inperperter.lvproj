@@ -10,6 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="PID simulation.vi" Type="VI" URL="../PID simulation.vi"/>
 		<Item Name="PID-testing.vi" Type="VI" URL="../PID-testing.vi"/>
 		<Item Name="testing.vi" Type="VI" URL="../testing.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -99,6 +100,8 @@
 		<Item Name="Move to point - polar.vi" Type="VI" URL="../Move to point - polar.vi"/>
 		<Item Name="String to XYZ.vi" Type="VI" URL="../String to XYZ.vi"/>
 		<Item Name="Test home procedure.vi" Type="VI" URL="../Test home procedure.vi"/>
+		<Item Name="Enqueue XYZ.vi" Type="VI" URL="../Enqueue XYZ.vi"/>
+		<Item Name="Tuning.vi" Type="VI" URL="../Tuning.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Acquire Semaphore.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/semaphor.llb/Acquire Semaphore.vi"/>
@@ -395,11 +398,12 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="Boolean Trigger__ogtk.vi" Type="VI" URL="../Boolean Trigger__ogtk.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
